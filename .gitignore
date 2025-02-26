@@ -1,0 +1,26 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dependências
+venv/
+.env
+*.env
+
+# Configurações do Streamlit
+.streamlit/
+
+
+# Arquivos temporários e caches
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+
+# Configuração do Poetry (caso use)
+poetry.lock
+
+# Arquivos do Jupyter Notebook (caso use)
+.ipynb_checkpoints/
